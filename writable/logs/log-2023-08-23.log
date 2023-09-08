@@ -1,0 +1,27 @@
+CRITICAL - 2023-08-23 14:36:01 --> Call to undefined function form_open()
+in APPPATH\Views\sys\employee\add.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/add', [], true)
+ 4 APPPATH\Controllers\Employee.php(16): view('sys/employee/add')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 16:25:32 --> Call to undefined function form_open()
+in APPPATH\Views\sys\employee\add.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sys/employee/add', [], true)
+ 4 APPPATH\Controllers\Employee.php(17): view('sys/employee/add')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 16:56:02 --> Undefined variable $data
+in APPPATH\Controllers\Employee.php on line 32.
+ 1 APPPATH\Controllers\Employee.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\software\\xampp\\htdocs\\smsmit\\app\\Controllers\\Employee.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Employee->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
